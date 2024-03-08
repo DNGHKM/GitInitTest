@@ -1,34 +1,29 @@
 ## 깃허브 공부용 레퍼지토리
 
-#### 첫 세팅
------
--
+### 첫 세팅
 ````
 git config --global user.email "kdh940@gmail.com"
 ````
 깃 글로벌 유저 이메일 설정
 
--
 ````
 git config --global user.name "DNGHKM"
 ````
 깃 글로벌 유저 이름 설정
 
--
 ````
 ssh-keygen
 ````
 ssh 키 생성
 
--
 ````
 cat [pub키 경로]
 ````
 pub 키 내용 확인 -> 깃에 등록해야 IDE 등과 연동 됨
 
 
-#### 깃 사용
-- 폴더 경로 이동 후
+### 깃 사용
+폴더 경로 이동 후
 ````
 git init
 ````
@@ -38,7 +33,7 @@ git 초기화(깃으로 관리하겠다) 실시 -> 숨김폴더로 .git 폴더 �
 - .gitignore
 사용자가 git에 커밋되지 않길 원하는 파일 또는 폴더들의 목록을 저장, 해당 파일/폴더는 커밋 시 제외됨 
 
-#### 깃 저장소 개념
+### 깃 저장소 개념
 - Working Directory : 작업하는 파일이 있는 디렉토리
 - Staging Area : git에 등록할(커밋) 파일들이 올라가는 영역
 - Local Repository : 로컬 git 프로젝트의 메타데이터와 데이터 정보가 저장되는 영역 (git init 하거나 remote repository를 복사해서 옮겨와서)
@@ -57,7 +52,7 @@ git 초기화(깃으로 관리하겠다) 실시 -> 숨김폴더로 .git 폴더 �
 (5) : Local Repository -> Woking Directory
 
 
-#### 터미널 명령어
+### 터미널 명령어
 -
 ````
  git clone [원격저장소 주소]
